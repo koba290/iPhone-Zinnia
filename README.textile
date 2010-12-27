@@ -1,0 +1,23 @@
+h1. 手書き文字認識エンジンZinnia on iPhone
+
+手書き文字認識エンジンZinniaをiPhone上で利用するサンプルアプリケーションです。
+
+!http://s3.flcl.jp/zinnia_screenshot_1.png!
+
+h2. ビルド方法
+
+# zinnia/zinnia.xcodeprojを開きます。
+# ターゲット（Device/Simulator）、構成を選びビルドします。
+# ZinniaSample/ZinniaSample.xcodeprojを開きます。
+# 先ほどビルドしたものと同じターゲット、構成でビルドします。
+
+h2. 謝辞
+
+このアプリケーションを作成するにあたり、以下のサイトを参考にさせて頂きました。
+
+"Zinnia: 機械学習ベースのポータブルなオンライン手書き文字認識エンジン":http://zinnia.sourceforge.net/index-ja.html
+"Core Graphicsで作るiPad向けお絵描きアプリの基礎 - @IT":http://www.atmarkit.co.jp/fsmart/articles/iphonesdk05/01.html
+"iOS向けに手書き認識ライブラリZinniaのライブラリプロジェクトをXcodeで作成する - Cocoa & Objective-C 活動日記":http://cocoa.hinona.com/2010/11/ioszinniaxcode.html
+"iPhone・iPad用に手書き文字認識ライブラリZinniaをビルドする - 遙かへのスピードランナー":http://d.hatena.ne.jp/thorikawa/20100830/p1
+"iPadで文字認識エンジンzinniaを動かす - Void ～tomの雑記～":http://d.hatena.ne.jp/homeskill/20101013/1286986752
+"iPadに手書き文字を認識させる - String cat":http://string-cat.blogspot.com/2010_07_01_archive.html
