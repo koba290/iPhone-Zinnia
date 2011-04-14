@@ -1,15 +1,28 @@
 h1. 手書き文字認識エンジンZinnia on iPhone
 
-手書き文字認識エンジンZinniaをiPhone上で利用するサンプルアプリケーションです。
+手書き文字認識エンジン Zinnia を iPhone 上で利用するサンプルアプリケーションです。
+Zinnia を Cocoa Touch Static Libaray としてビルドしています。
 
-!http://s3.flcl.jp/zinnia_screenshot_1.png!
+!/FLCLjp/iPhone-Zinnia/raw/master/screenshot.png!
 
-h2. ビルド方法
+h2. ビルド手順
 
-# zinnia/zinnia.xcodeprojを開きます。
+h3. xcode 4
+
+# ZinniaSample/ZinniaSample.xcodeproj を開きます。
+# ビルドターゲットで ZinniaSample を選びビルドします。
+
+h3. xcode 3
+
+# zinnia/zinnia.xcodeproj を開きます。
 # ターゲット（Device/Simulator）、構成を選びビルドします。
-# ZinniaSample/ZinniaSample.xcodeprojを開きます。
+# ZinniaSample/ZinniaSample.xcodeproj を開きます。
 # 先ほどビルドしたものと同じターゲット、構成でビルドします。
+
+h2. ライセンス
+
+Zinnia およびその関連ファイルについては、各ライブラリーのライセンスに従いご利用ください。
+サンプルアプリケーションについてはライセンスなどの制限は設けておりません。ご自由にご利用ください。
 
 h2. 謝辞
 
